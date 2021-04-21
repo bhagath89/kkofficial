@@ -1,5 +1,7 @@
 ## KK OFFICIAL MUSIC BOT 
 
+# [![kk](https://telegra.ph/file/beeb9c9bf7979d1d71b43.jpg)]
+
 A Telegram UserBot to Play music 🎶 in Voice Chats.
 
 
@@ -97,6 +99,6 @@ assume that you were going to use `vc.player` and `ping` plugin, replace
 
 # Contribution
 
-#  ![Mr-SHRLCK](https://github.com/Mr-SHRLCK)
+![Mr-SHRLCK](https://github.com/Mr-SHRLCK)
  
   very very thanks to your most valuable contribution to this repo . therefore , you are most valuable person for me ... Mr-SHRLCK.....
