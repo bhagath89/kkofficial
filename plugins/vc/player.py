@@ -56,7 +56,7 @@ __starts with ! (exclamation mark)__
 
 USERBOT_REPO = f"""{emoji.ROBOT} **Telegram Voice Chat UserBot**
 
-Click [here](https://github.com/sakhaavvaavaj93/kkofficial) to open voice-chat Userbot repo"""
+Click [here](https://t.me/uvvauvve) to open voice-chat Userbot repo"""
 
 
 # - Pyrogram filters
@@ -267,7 +267,7 @@ async def join_group_call(client, m: Message):
     group_call = mp.group_call
     group_call.client = client
     if group_call.is_connected:
-        await m.reply_text(f"{emoji.ROBOT} നിൻ്റെ കണ്ണിൽ എന്താ ഡാ  ... കാണാൻ വയ്യേ ? ഞാൻ vc vc യില് ഉണ്ട്")
+        await m.reply_text(f"{emoji.ROBOT} നിൻ്റെ കണ്ണിൽ എന്താ ഡാ 🧐... കാണാൻ വയ്യേ ? ഞാൻ vcയില് ഉണ്ട് 😏")
         return
     await group_call.start(m.chat.id)
     await m.delete()
@@ -299,7 +299,7 @@ async def list_voice_chat(client, m: Message):
         )
     else:
         reply = await m.reply_text(emoji.NO_ENTRY
-                                   + "ഞാൻ ഒരിടത്തും പോയിട്ടില്ല")
+                                   + "ഞാൻ ഒരിടത്തും പോയിട്ടില്ല😏")
     await _delay_delete_messages((reply, m), DELETE_DELAY)
 
 
@@ -310,7 +310,7 @@ async def list_voice_chat(client, m: Message):
 async def stop_playing(_, m: Message):
     group_call = mp.group_call
     group_call.stop_playout()
-    reply = await m.reply_text(f"{emoji.STOP_BUTTON} ഞാൻ മിൻഡൂല")
+    reply = await m.reply_text(f"{emoji.STOP_BUTTON} ഞാൻ മിൻഡൂല😒")
     await mp.update_start_time(reset=True)
     mp.playlist.clear()
     await _delay_delete_messages((reply, m), DELETE_DELAY)
